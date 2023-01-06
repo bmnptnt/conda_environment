@@ -1,6 +1,7 @@
 # Conda environment, CUDA, CUDNN
 ### Tensorflow for REBN & MCSR
 - RTX 3090(Ti also)
+
 '''c
 > conda create -n tf_2.5 python=3.8
 > conda activate tf_2.5
