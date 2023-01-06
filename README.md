@@ -1,8 +1,7 @@
 # Conda environment, CUDA, CUDNN
 ### Tensorflow for REBN & MCSR
 - RTX 3090(Ti also)
-
-'''c
+```
 > conda create -n tf_2.5 python=3.8
 > conda activate tf_2.5
 > conda install -c anaconda cudatoolkit=11.2
@@ -16,10 +15,10 @@
 > pip install imageio
 > pip install ffmpeg
 
-'''
+```
 
 - RTX TITAN & 2080(Ti also)
-'''
+```
 > conda create -n tf_2.1 python=3.6
 > conda activate tf_2.1
 > conda install -c anaconda cudatoolkit=10.1
@@ -33,4 +32,4 @@
 > pip install imageio
 > pip install ffmpeg
 
-'''
+```
