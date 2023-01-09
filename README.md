@@ -4,8 +4,8 @@
 ```
 > conda create -n tf_2.5 python=3.8
 > conda activate tf_2.5
-> conda install -c anaconda cudatoolkit=11.2
-> conda install -c anaconda cudnn=8.1.0
+> conda install -c anaconda cudatoolkit
+> conda install -c anaconda cudnn
 > pip install tensorflow-gpu==2.5.0 
 > pip install scikit-learn
 > pip install matplotlib
