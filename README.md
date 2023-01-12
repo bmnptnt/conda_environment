@@ -18,8 +18,8 @@
 ```
 
 - ~~RTX TITAN & 2080(Ti also)~~
-```
-~~> conda create -n tf_2.1 python=3.6~~
+~~```
+> conda create -n tf_2.1 python=3.6~~
 > conda activate tf_2.1
 > conda install -c anaconda cudatoolkit=10.1
 > conda install -c anaconda cudnn=7.6.5
@@ -32,4 +32,4 @@
 > pip install imageio
 > pip install ffmpeg
 
-```
+```~~
