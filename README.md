@@ -1,5 +1,21 @@
 # Conda environment, CUDA
 ### torch for Multi-Label Classification: ML-Decoder
+ conda create --name multilabel2 -y
+```
+> conda activate  multilabel2
+> conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+> export CUDA_HOME=$CONDA_PREFI
+> sudo apt-get --yes install build-essential
+> conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+> sudo apt-get --purge remove gcc
+> sudo apt-get install --reinstall gcc
+> sudo apt-get update
+> sudo apt-get install g++
+> pip install inplace-abn
+> pip install pycocotools
+> pip install randaugment
+```
+
 ### Tensorflow for REBN & MCSR
 - RTX 3090(Ti also)
 ```
