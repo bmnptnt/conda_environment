@@ -14,6 +14,9 @@
 > pip install inplace-abn
 > pip install pycocotools
 > pip install randaugment
+> conda install -c anaconda scikit-learn
+> conda install -c anaconda pandas
+> conda install -c conda-forge torchinfo
 ```
 
 # Tensorflow for REBN & MCSR
