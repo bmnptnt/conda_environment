@@ -1,4 +1,5 @@
-# Conda environment, CUDA, CUDNN
+# Conda environment, CUDA
+### torch for Multi-Label Classification: ML-Decoder
 ### Tensorflow for REBN & MCSR
 - RTX 3090(Ti also)
 ```
